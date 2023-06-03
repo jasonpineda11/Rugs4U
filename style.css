@@ -29,3 +29,35 @@ a {
 li {
     list-style: none;
 }
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid red;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    display: flex;
+    font-size: 48px;
+}
+p {
+    display: flex;
+    font-size: 18px;
+}
+
+.photo {
+    display: flex;
+    justify-content: flex-end;
+}
+
+img {
+    display: flex;
+    justify-content: flex-end;
+    width: 200px;
+    height: auto;
+}
