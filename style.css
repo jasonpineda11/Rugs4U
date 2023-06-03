@@ -1,0 +1,31 @@
+.top-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1f2937;
+    padding: 8px;
+
+}
+
+h3 {
+    color: #f9FaF8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav {
+    display: flex;
+    color: #e5e7eb;
+    font-size: 18px;
+    gap: 8px;    
+}
+
+a {
+    color: #e5e7eb;
+    text-decoration: none;
+
+}
+
+li {
+    list-style: none;
+}
