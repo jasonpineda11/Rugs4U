@@ -11,6 +11,7 @@
     background-color: #1f2937;
     padding: 8px;
     padding-bottom: 20px;
+    height: 75px;
 
 }
 
@@ -43,6 +44,7 @@ li {
     display: flex;
     justify-content: center;
     background-color: #1f2937;
+    
 }
 
 .hero {
@@ -102,6 +104,8 @@ button {
     font-size: 36px;
     margin-top: 20px;
     margin-bottom: 20px;
+    height: 100px;
+    
 }
 
 .infoboard {
@@ -109,6 +113,7 @@ button {
     justify-content: center;
     gap: 20px;
     padding-bottom: 35px;
+    height: 250px;
 }
 
 .small-content {
@@ -122,6 +127,12 @@ button {
     
 }
 
+.small-content img {
+    display: flex;
+    border-radius: 12px;
+    border: #3882f6 6px solid;
+}
+
 .infos {
     display: flex;
     flex: 1;
@@ -129,3 +140,81 @@ button {
     flex-wrap: wrap;
 }
 
+.quote {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    background-color: #e5e7eb ;
+    padding: 50px;
+    justify-content: center;
+    font-weight: 100;
+}
+
+.quote q {
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+  
+}
+
+.quote p {
+    color: #1f2937;
+    font-size: 20px;
+    font-weight: bold;
+    justify-content: end;
+}
+
+.sign-up {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.boxx {
+    display: flex;
+    background-color: #3882f6;
+    border-radius: 8px;
+    color: #f9FaF8;
+    font-size: 24px;
+    height: 100px;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.sign-up p{
+    display: flex;
+    justify-content: flex-start;
+    font-size: 18px;
+    font-weight: 200;
+
+}
+.shop-button {
+    display: flex;
+    
+    align-items: center;
+}
+
+.shop-button button{
+    border-radius: 8px;
+    border: #f9FaF8 solid 2px;
+    display: flex;
+    margin-bottom: 25px;
+    margin-right: 25px;
+    margin-left: 50px;
+    
+}
+
+.footbox {
+    display: flex;
+    justify-content: center;
+    height: 150px;
+    align-items: center;
+    color: #f9FaF8;
+    background-color: #1f2937;
+
+}
